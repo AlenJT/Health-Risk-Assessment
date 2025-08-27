@@ -78,7 +78,9 @@ Color: BMI Index
 
 Install dependencies:
 
-### pip install pandas numpy scikit-learn torch matplotlib seaborn
+```bash
+pip install pandas numpy scikit-learn torch matplotlib seaborn
+
 
 
 
