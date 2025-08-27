@@ -18,13 +18,13 @@ Weight → in kilograms
 
 Index → Health Category (0-5)
 
-Index	Category
-0	Extremely Weak
-1	Weak
-2	Normal
-3	Overweight
-4	Obesity
-5	Extreme Obesity
+Index	Category:
+0-Extremely Weak,
+1-Weak,
+2-Normal,
+3-Overweight,
+4-Obesity,
+5-Extreme Obesity.
 ## Workflow
 ## 1. Data Preprocessing
 
