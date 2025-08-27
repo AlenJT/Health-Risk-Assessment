@@ -81,11 +81,11 @@ Install dependencies:
 ```bash
 pip install pandas numpy scikit-learn torch matplotlib seaborn
 
-```bash
+```
 
 
 
 
 
 
-Check model evaluation, charts, and predictions.
+# Check model evaluation, charts, and predictions.
