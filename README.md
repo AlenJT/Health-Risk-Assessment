@@ -1,14 +1,14 @@
-Health Risk Assessment – BMI Classification
-Project Overview
+## Health Risk Assessment – BMI Classification
+## Project Overview
 
 This project builds a BMI (Body Mass Index) Classifier that predicts a person’s health category (Extremely Weak → Extreme Obesity) based on Gender, Height, and Weight.
 We use PyTorch for deep learning, scikit-learn for preprocessing, and Seaborn/Matplotlib for visualization.
 
-Dataset
+## Dataset
 
 File: 500_Person_Gender_Height_Weight_Index.csv
 
-Features:
+## Features:
 
 Gender → Male / Female
 
@@ -25,8 +25,8 @@ Index	Category
 3	Overweight
 4	Obesity
 5	Extreme Obesity
- Workflow
-1. Data Preprocessing
+## Workflow
+## 1. Data Preprocessing
 
 Gender encoded → Male=1, Female=0
 
@@ -34,7 +34,7 @@ Features normalized with MinMaxScaler
 
 Train-test split (80%-20%)
 
-2. Model Architecture (PyTorch)
+## 2. Model Architecture (PyTorch)
 
 Input Layer: 3 neurons (Gender, Height, Weight)
 
@@ -48,13 +48,13 @@ Optimizer: Adam (lr=0.001)
 
 Training: 10,000 epochs
 
-3. Evaluation
+## 3. Evaluation
 
 Metrics: Accuracy, Classification Report, Confusion Matrix
 
 Visualization: Scatter plot of Height vs Weight grouped by BMI category
 
-4. Prediction on New Data
+## 4. Prediction on New Data
 
 Example:
 
@@ -74,11 +74,11 @@ Y-axis: Weight
 
 Color: BMI Index
 
-How to Run
+## How to Run
 
 Install dependencies:
 
-pip install pandas numpy scikit-learn torch matplotlib seaborn
+### pip install pandas numpy scikit-learn torch matplotlib seaborn
 
 
 
