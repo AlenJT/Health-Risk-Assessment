@@ -1,4 +1,4 @@
-## Health Risk Assessment – BMI Classification
+# Health Risk Assessment – BMI Classification
 ## Project Overview
 
 This project builds a BMI (Body Mass Index) Classifier that predicts a person’s health category (Extremely Weak → Extreme Obesity) based on Gender, Height, and Weight.
@@ -80,7 +80,7 @@ Install dependencies:
 
 ```bash
 pip install pandas numpy scikit-learn torch matplotlib seaborn
-
+```
 
 
 
